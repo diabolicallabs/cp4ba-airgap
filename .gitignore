@@ -1,0 +1,7 @@
+**/.DS_Store
+installation-container/assets/*.tgz
+installation-container/assets/entitlement_key.text
+
+assets/*.tgz
+assets/ibm-cp-automation
+assets/index.yaml

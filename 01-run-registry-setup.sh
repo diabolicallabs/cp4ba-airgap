@@ -6,4 +6,4 @@ docker run --privileged \
  -e LOCAL_REGISTRY_PORT=443 \
  -e LOCAL_REGISTRY_USER=local_user \
  -e LOCAL_REGISTRY_PASS=local_password \
- ibmce/cp4ba:1.0 /bin/bash catalog-setup.sh
+ ibmce/cp4ba:1.0 /bin/bash registry-setup.sh

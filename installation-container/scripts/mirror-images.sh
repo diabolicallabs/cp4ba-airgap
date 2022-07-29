@@ -44,4 +44,4 @@ cloudctl case launch \
    --inventory ${CASE_INVENTORY_SETUP} \
    --action mirror-images \
    --namespace ${NAMESPACE} \
-   --args "--registry ${LOCAL_REGISTRY} --user ${LOCAL_REGISTRY_USER} --pass ${LOCAL_REGISTRY_PASS} --filter ibmcp4baProd,ibmcp4baBAWImages,ibmcp4baFNCMImages,ibmcp4baBANImages,ibmcp4baBASImages,ibmcp4baAAEImages --inputDir  ${OFFLINEDIR}"
+   --args "--registry ${LOCAL_REGISTRY} --user ${LOCAL_REGISTRY_USER} --pass ${LOCAL_REGISTRY_PASS} --filter ibmcp4baProd,ibmcp4baBAWImages,ibmcp4baFNCMImages,ibmcp4baBANImages,ibmcp4baBASImages,ibmEdbStandard --inputDir  ${OFFLINEDIR}"
